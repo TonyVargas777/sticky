@@ -1,0 +1,50 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Asegura que las imágenes se alineen verticalmente */
+  width: 100%;
+  height: 100vh; /* El body ocupa la altura completa de la pantalla */
+}
+
+.images {
+  display: flex;
+  flex-direction: column;  
+}
+
+.image-container {
+  position: relative; /* Necesario para posicionar el texto sobre la imagen */
+  width: 100%;
+  height: 100%; /* Asegura que las imágenes tengan un tamaño apropiado */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1980 / 1080; /* Relación de aspecto de la imagen */
+  object-fit: cover;
+  position: sticky; /* Sticky debe estar aquí */
+  top: 0; /* La imagen se pegará a la parte superior cuando se haga scroll */
+}
+
+.image-name {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: gold;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
+  padding: 5px;
+}
