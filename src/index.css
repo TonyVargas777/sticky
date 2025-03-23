@@ -28,23 +28,23 @@ body {
   position: relative; /* Necesario para posicionar el texto sobre la imagen */
   width: 100%;
   height: 100%; /* Asegura que las imágenes tengan un tamaño apropiado */
+  position: sticky; 
+  top: 0;
 }
 
 .image {
   width: 100%;
   height: 100%;
-  aspect-ratio: 1980 / 1080; /* Relación de aspecto de la imagen */
-  object-fit: cover;
-  position: sticky; /* Sticky debe estar aquí */
-  top: 0; /* La imagen se pegará a la parte superior cuando se haga scroll */
+  aspect-ratio: 1980 / 1280; /* Relación de aspecto de la imagen */
+  object-fit: cover;  
 }
 
 .image-name {
-  position: absolute;
-  bottom: 10px;
+  position: absolute;  
+  bottom: 90%;
   left: 10px;
   color: gold;
   font-size: 40px;
-  background-color: rgba(0, 0, 0, 0.6); /* Fondo semitransparente para el texto */
+  background-color: rgba(0, 0, 0, 0.6); 
   padding: 5px;
 }
