@@ -35,7 +35,7 @@ body {
 .image {
   width: 100%;
   height: 100%;
-  aspect-ratio: 1980 / 1280; /* Relación de aspecto de la imagen */
+  aspect-ratio: 1980 / 1080; /* Relación de aspecto de la imagen */
   object-fit: cover;  
 }
 
