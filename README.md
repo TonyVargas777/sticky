@@ -1,12 +1,37 @@
-# React + Vite
+# Star Wars Planets Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto web desarrollado con **React y Vite** que te permite explorar 70 de los planetas más icónicos del universo Star Wars.
 
-Currently, two official plugins are available:
+## 🚀 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Adéntrate en la galaxia muy, muy lejana y descubre los mundos que han marcado la historia de Star Wars. Desde los desiertos abrasadores de Tatooine hasta la inmensidad oceánica de Kamino, cada planeta cobra vida en esta experiencia visual única.
 
-## Expanding the ESLint configuration
+Mientras haces scroll, viajarás de un sistema estelar a otro, explorando los rincones más emblemáticos de la saga a través de impresionantes imágenes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías utilizadas
+
+- **React** - Biblioteca de JavaScript para construir la interfaz de usuario.
+- **Vite** - Herramienta de desarrollo rápida y optimizada para React.
+- **CSS/Styled Components** - Para el diseño y la presentación visual de los planetas.
+
+## 📦 Instalación y ejecución
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/TonyVargas777/sticky.git
+2. Accede al directorio del proyecto:
+   ```bash
+   cd sticky
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## 🌌 Que la Fuerza te acompañe
+
+Explora, sumérgete en los detalles y revive la magia de Star Wars a través de sus planetas. ¡Esperamos que disfrutes el viaje intergaláctico! 🚀
